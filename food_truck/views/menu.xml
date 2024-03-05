@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_sale_product_set" name="Product Sets" action="innovix_food_truck_act" parent="sale.sale_menu_root" sequence="31"/>
+    <menuitem id="menu_innovix_product_request" name="Product Request" action="innovix_product_request_act" web_icon="food_truck,static/description/product.png"/>
+</odoo>
