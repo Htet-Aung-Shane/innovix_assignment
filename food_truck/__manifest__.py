@@ -6,6 +6,7 @@
         "product",
         "sale",
         'stock',
+        'purchase',
         "mail",
     ],
     'category': 'Customizations',

@@ -1,1 +1,1 @@
-from . import product_set, user_ext, product_request
+from . import product_set, user_ext, product_request, ir_menu_extension

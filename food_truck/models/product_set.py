@@ -50,8 +50,7 @@ class SaleExtension(models.Model):
                     'name': product.name,
                     'price_unit': product.list_price
                 }))
-            # if self.order_line:
-            #     self.order_line.unlink()  # Comment this code since we use onchange and have to take more time
+            self.order_line.unlink()  # Comment this code since we use onchange and have to take more time
             self.order_line = product_lines
 
     @api.depends('innovix_sale_order')

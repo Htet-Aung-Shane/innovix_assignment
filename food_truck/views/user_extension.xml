@@ -15,6 +15,14 @@
                         </group>
                     </page>
                 </xpath>
+                <!-- you can open this code if you need more custom hiding menu -->
+                <!-- <xpath expr="//notebook" position="inside">
+                    <page string="Hide Menu">
+                        <tree>
+                            <field name="hide_menu_access_ids" options="{'no_create':1,'no_create_edit':1}"/>
+                        </tree>
+                    </page>
+                </xpath> -->
             </field>
         </record>
     </data>
